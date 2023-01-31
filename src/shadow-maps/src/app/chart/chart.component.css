@@ -1,0 +1,15 @@
+#chart {
+    position: absolute;
+    left: 72%;
+    top: 20%;
+    bottom: 0;
+    width: 27%;
+    height: 20%;
+    background-color: rgb(217, 214, 214);
+    border: solid 1px rgb(1, 4, 13);
+    z-index: 1000;
+}
+.barBackground {
+    margin-top: -2px !important;
+}
+

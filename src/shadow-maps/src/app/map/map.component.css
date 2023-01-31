@@ -4,24 +4,35 @@
     height: 100vh;
 }
 header {
-    background-color: var(--header-color);
-    padding: 2em;
+    background-color: #0e1013;
+    padding: 0.2em;
 }
 header .title {
-    font-size: 28px;
+    font-size: 17px;
+    color: #fff;
 }
 main {
     display: flex;
     flex-grow: 1;
 }
-.left-bar {
-    width: 20em;
-    background-color: var(--sidebar-color);
-}
 .map-container {
     flex-grow: 1;
 }
-footer {
-    background-color: var(--header-color);
-    padding: 1em;
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+    padding: 0.5em;
+}
+.subtitle {
+    font-size: 17px;
+    color: #fff;
+}
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
 }

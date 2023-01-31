@@ -1,10 +1,15 @@
 <header>
-    <div class="title">Map Viewer - Openlayers & Angular</div>
-  </header>
-  <main>
-    <div class="left-bar"></div>
-    <div id="ol-map" class="map-container"></div>
-  </main>
-  <footer>
-    Footer
-  </footer>
+  <div class="title">Assignment 1 : D3 and Angular</div>
+  <div id= "button" class="button-container">
+    <button (click)="SummerhandleClick()">Summer</button>
+    <button (click)="AutumnhandleClick()">Autumn</button>
+    <button (click)="WinterhandleClick()">Winter</button>
+
+    <!-- <button mat-icon-button color="primary" (click)="WinterhandleClick()"[ngClass]="{'green' : toggle, 'red': !toggle}">Winter    {{status}} -->
+    <!-- </button> -->
+  </div>
+    
+</header>
+<main>
+  <div id="ol-map" class="map-container"></div>
+</main>
